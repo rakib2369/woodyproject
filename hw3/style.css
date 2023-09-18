@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.top-header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f4f7ff;
+    display: flex;
+    height: 55px;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 0 50px;
+}
+.top-header-left{
+    display: flex;
+}
+.top-header-right{
+    display: flex;
+}
+.time, .social-links{
+    margin-left: 20px;
+}
+.address, .time, .contact{
+font-size: 14px;
+color:#6e6969;
+
+}
+.social-links a{
+    padding: 0 5px;
+    transition: 0.3s linear;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+	background-color: rgb(5, 45, 104);
+    }
+.logo {
+    font-size: larger;
+    }
+.logo h1{
+    padding-left: 50px;
+    color: white;
+}
+.nav-link ul {
+    display: flex;
+    list-style: none;
+}
+.nav-link ul li {
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.nav-link ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s linear;
+    color: white;
+    
+}
+.nav-link ul li a:hover{
+color: brown;
+}
+button{
+	background-color: #dc62c8;
+    color: white;
+    padding: 11px 25px;
+    font-size: 18px;
+    margin-right: 40px;
+    border-style: none;
+    border-radius: 5px;
+    transition: 0.5s linear;
+}
+button:hover{
+    background-color: coral;
+    color:aliceblue;
+}
+button i{
+	margin-left: 8px;
+}
